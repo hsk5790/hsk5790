@@ -1,0 +1,607 @@
+*{ margin:0; }
+
+/* .top_slide_bn{
+    top: 170px;
+    right: 150px;
+    bottom: auto;
+    left: auto;
+    margin-left: 0;
+    padding-right: 32px;
+    position: fixed;
+} */
+header{
+ position: absolute;
+ width: 100%;
+ min-width: 320px;
+ height: 100px;
+ background:#fff;
+ z-index: 50;
+}
+.top_align{
+    position: relative;
+    max-width: 1180px;
+    margin: auto;   
+}
+.top_left_menu{
+    position: relative;
+    float:left;
+    width: auto;
+    border-bottom:none;
+    margin-top: 17px;
+    z-index: 51;
+    display: table;
+}
+.top_left_menu li{
+    list-style-type: none;
+    width: auto;
+    margin-right: 17px;
+    padding-right: 18px;
+    float: left;
+    text-align: center;
+    background: url(https://www.ediya.com/images/common/util_line.gif) no-repeat;
+    background-position: right;
+}
+.top_left_menu li a{
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+
+.on a{
+    color: #1d326c;
+    border-bottom: none;
+}
+h1.main_logo{    
+   clear: both;
+   margin: 90px 0px 0px 64px;
+   padding-top: 3px;
+   z-index: 51;
+   float: left;
+   font-size: 2em;
+   margin-block-start: 0.67em;
+   margin-block-end: 0.67em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+.main_logo a{
+    text-decoration: none;
+    color: #464646;
+}
+.nav_w{
+    display: block;
+}
+.nav_w img{
+    width: auto;
+    height: auto;
+}
+
+.nav_b{display: none;}
+.nav_btn{
+    display: none;
+    float: right;
+    margin: 19px 17px 0 0;
+}
+.gnb{
+    display: block;
+}
+
+.gnb .gnb_wrap{
+    width: 1180px;
+    height: auto;
+    top: 0;
+    left: 0;
+    background: #fff;
+    position: absolute; 
+    overflow: visible;
+}
+.top-right_menu{
+    float: right;
+    width: auto;
+    margin: 17px 0 0 0;
+}
+
+.menu1{
+   list-style-type: none;
+   float: left;
+   margin: 0 20px 0 25px;
+}
+
+
+.menu1 li{
+    display: inline;
+    margin-left: 17px;
+    padding-left: 18px;
+    background: url("https://www.ediya.com/images/common/util_line.gif") no-repeat left;
+}
+.menu1 li a{
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    color: #848484;
+    text-decoration: none;
+}
+
+.sns{
+    list-style: none;
+    float:left;
+    margin: 4px 15px 0 0;
+}
+
+.sns li{
+    display: inline;
+    margin: 0 5px 0 0;
+    float: left;
+}
+select{
+    width: 160px;
+    height: 30px;
+    padding: 0 0 0 20px;   
+    font-size: larger;
+}  
+ul.main-menu li{
+    display: inline-block;
+    list-style: none;
+}    
+.main-menu{ 
+    position: absolute; 
+    top: 65px;
+    left: 243px;
+    width: 1000px;
+    border-top: none;
+    border-bottom: none;
+    float: left;     
+}
+ul.main-menu > li > a{
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: larger;
+    position: relative; 
+    display: block;   
+}
+
+ul.sub-menu li {
+    display: block;
+    padding: 5px 0px 5px 0px;
+ 
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+   
+}
+.sub-menu li a{
+    text-decoration: none;  
+}
+
+
+nav ul li > a:hover{
+    text-decoration: underline 3px;
+    font-weight: bold;
+    }
+
+nav ul li:hover ul{
+    display: block;
+}
+
+.mix{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.main_beanist{
+    text-align:center;   
+    padding: 120px 0px 80px;
+    background: url(https://www.ediya.com/images/main/main_beanist_bg.gif) #fce1a6 center no-repeat;
+}
+.main_beanist h2{
+    font-size: 42px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #3c3c3c;
+    font-weight: 100;
+    line-height: 1.1em;
+    text-align: center;
+}
+.main_beanist h2 em{
+    display: inline-block;
+    color: #90470c;
+    font-weight: 900;
+    font-style: normal;
+    padding: 0 15px;
+}
+.main_beanist h2::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin: 51px auto 0;
+    background: #3c3c3c;    
+}
+.main_beanist h3{
+    font-size: 26px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 53px 0 60px;
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: 100;
+    color: #3c3c3c;
+}
+.main_beanist h3 em{
+    font-weight: 500;
+    font-style: normal;
+}
+
+.mix{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 0;
+}
+.mix li{
+    width: 20%;
+    display: inline-block;
+    margin: 0 2%;
+    vertical-align: top;
+}
+.mix li a{
+    text-decoration: none;
+    color: #464646;
+}
+.mix li .pro_img{
+    max-width: 217px;
+    width: 100%;
+    margin: auto;
+}
+.mix li dl{
+    margin-top: 20px;
+    width: 120%;
+    margin-left: -10%
+}
+.mix li dl dt{
+    color: #693A13;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.mix li dl dd{
+    font-size: 15px;
+    color:#CC8E5D;
+}
+.ame{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 0;
+}
+.ame li{
+    width: 29%;
+    display: inline-block;
+    margin: 0 2%;
+    vertical-align: top;
+}
+.ame li a{
+    text-decoration: none;
+    color: #464646;
+}
+.ame li .pro_img{
+    max-width: 217px;
+    width: 100%;
+    margin: auto;
+}
+.ame li dl{
+    margin-top: 20px;
+    width: 120%;
+    margin-left: -10%
+}
+.ame li dl dt{
+    color: #693A13;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.ame li dl dd{
+    font-size: 15px;
+    color:#CC8E5D;
+}
+.ame{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 0;
+}
+.latte li{
+    width: 15%;
+    display: inline-block;
+    margin: 0 2%;
+    vertical-align: top;
+}
+.latte li a{
+    text-decoration: none;
+    color: #464646;
+}
+.latte li .pro_img{
+    max-width: 217px;
+    width: 100%;
+    margin: auto;
+}
+.latte li dl{
+    margin-top: 20px;
+    width: 120%;
+    margin-left: -10%
+}
+.latte li dl dt{
+    color: #693A13;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.latte li dl dd{
+    font-size: 15px;
+    color:#CC8E5D;
+}
+.dream_factory{
+    width: 100%;
+    background:url("https://www.ediya.com/images/main/dream_factory_bg.gif") repeat-y;
+    background-size: 100% auto;
+    overflow:hidden;
+    word-break:keep-all;
+}
+.factory_con{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 4%;
+
+}
+.factory_con h2{
+    font-size:32px;
+    color:#fff;
+    font-weight:100;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 60px;
+    line-height:1.1em;
+}
+
+.factory_con h2 em{
+    width: 1036px;
+    height: 87px;
+    font-weight:900;
+    background: url(https://www.ediya.com/images/main/dream_factory_txt.png) no-repeat;
+    background-size: 100% auto;
+    font-size: 42px;
+    text-indent: -9999px;
+    font-style: normal;
+ }
+.factory_con p{
+    color:#fff;
+    font-size:17;
+}
+.main_btn{
+  display: -webkit-box;
+  display: flex;
+  margin-top: 30px;
+}
+.main_btn a{
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  width: 190px;
+  height: 44px;
+  line-height: 44px;
+  display: block;
+  margin-right: 10px;
+  text-decoration:none;
+}
+.factory_img{
+    float:right;
+    margin-top:-250px;
+}
+.coffee_menu{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background: url(https://www.ediya.com/images/main/block02_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+}
+.coffee_menu h2{
+    font-size: 42px;
+    padding-top: 112px;   
+    color: #fff;
+    line-height: 1.1em;
+    font-family:'Nunito Sans' sans-serif ;
+    z-index: 20;
+}
+.coffee_menu h2 em{      
+    color: #fff;   
+    font-family:'Nunito Sans' sans-serif ;
+    font-weight:bolder;    
+}
+.coffee_menu h2::after{
+    width: 100px;
+    height: 1px;
+    background: #fff;
+    margin-top:53px;
+   
+    margin:auto;
+    content: "";   
+    display: block;
+}
+.coffee_menu h3{
+    position: relative;
+    font-size: 26px;
+    margin-top: 51px;
+    
+    color:#fff;
+    line-height: 1.4em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.coffee_menu .cofee_menu_btn{
+    position: relative;
+    width: 190px;
+    height: 44px;
+    margin: auto;
+}
+.coffee_menu div.cofee_menu_btn a{
+    border: 1px solid #fff;
+    color: #fff;
+    width: 188px;
+    height: 42px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 42px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+.company_wrap{
+    width: 100%;
+    display: table;
+    background: url(https://www.ediya.com/images/main/company_bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 54px;
+}
+.company_con{
+    max-width: 1180px;
+    padding: 0 4%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+.company_align{
+    float: right;
+    display: block;
+}
+.company_align h2{
+    font-family: 'Noto Sans SC', sans-serif;
+    padding-top: 87px;
+    color: #fff;
+    font-weight: 100;
+    text-align: left;
+    font-size: 44px;
+    line-height: 1.15em;
+}
+.company_align p{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    margin: 56px 0 0 0;
+    text-align: left;
+    line-height: 1.7em;
+}
+.company_align_btn{
+    position: relative;
+    text-align: left;
+    width: auto;
+    margin: 36px auto;
+}
+.company_align_btn a{
+    display: inline-block;
+    min-width: 148px;
+    width: auto;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+footer{
+    background-color:#262626;
+    text-align: center;
+}
+.footer_menu li{
+    display: inline-block;
+    margin:3px 19px;
+}
+
+
+.footer_menu li a{
+    color:#818181;
+    text-decoration:none;
+}
+.company_logo{
+    display:inline;
+}
+
+.bottom_ccm{
+    display:inline;
+    margin-left: 100px;
+}
+
+.bottom_ccm img{
+    width:170px;
+    height:45px;
+}
+
+.culture-lab{
+    background: url(https://www.ediya.com/images/main/block03_bg.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    word-break: keep-all;
+}
+.culture-lab h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    line-height: 1.1em;
+    font-size: 42px;
+    font-family:'Nunito Sans', sans-serif;
+    padding-top:116px;
+}
+.culture-lab h2 em{
+    font-weight:900;
+    font-style:normal;
+    display:inline-block;
+
+}
+.culture-lab h3{
+    text-align:center;
+    font-size:26px;
+    margin-top:106px;
+    color:#fff;
+}
+section.culture-lab h3::after{
+    margin-top:50px;
+    margin:auto;
+    width:100px;
+    height:1px;
+    color:#1f76e4;
+    content:"";
+    display:block;
+    position:relative;
+}
+.cuture-lab-con{
+    width:100%;
+    margin-top:106px;
+    text-align: center;
+}
+.cuture-lab-con ul{
+    display:table;
+    width:100%;
+    max-width:975px;
+    margin: auto;
+    line-height: none;    
+}
+.cuture-lab-con ul li{  
+   display: inline-block;
+   width:33%;
+   text-align: center;  
+}
+.culture-lab .cuture-lab-con li:nth-child(1){
+    background: url(https://www.ediya.com/images/main/block03_icon01.png) no-repeat center top;
+}
+
+  
+   
+
+
+    
